@@ -1,0 +1,116 @@
+/* gotham book regular */
+@font-face {
+    font-family: 'gothambookregular';
+    src: url('gothambook.eot');
+    src: url('gothambook.eot?#iefix') format('embedded-opentype'),
+         url('gothambook.woff2') format('woff2'),
+         url('gothambook.woff') format('woff'),
+         url('gothambook.ttf') format('truetype'),
+         url('gothambook.svg#gothambookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* gotham book italic*/
+@font-face {
+    font-family: 'gothambookitalic';
+    src: url('gothambook-italic.eot');
+    src: url('gothambook-italic.eot?#iefix') format('embedded-opentype'),
+         url('gothambook-italic.woff2') format('woff2'),
+         url('gothambook-italic.woff') format('woff'),
+         url('gothambook-italic.ttf') format('truetype'),
+         url('gothambook-italic.svg#gothambookitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* gotham light regular*/
+@font-face {
+    font-family: 'gothamlightregular';
+    src: url('gothamlight.eot');
+    src: url('gothamlight.eot?#iefix') format('embedded-opentype'),
+         url('gothamlight.woff2') format('woff2'),
+         url('gothamlight.woff') format('woff'),
+         url('gothamlight.ttf') format('truetype'),
+         url('gothamlight.svg#gothamlightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* gotham lighti talic*/
+@font-face {
+    font-family: 'gothamlightitalic';
+    src: url('gothamlight-italic.eot');
+    src: url('gothamlight-italic.eot?#iefix') format('embedded-opentype'),
+         url('gothamlight-italic.woff2') format('woff2'),
+         url('gothamlight-italic.woff') format('woff'),
+         url('gothamlight-italic.ttf') format('truetype'),
+         url('gothamlight-italic.svg#gothamlightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* gotham medium regular*/
+@font-face {
+    font-family: 'gothammediumregular';
+    src: url('gothammedium.eot');
+    src: url('gothammedium.eot?#iefix') format('embedded-opentype'),
+         url('gothammedium.woff2') format('woff2'),
+         url('gothammedium.woff') format('woff'),
+         url('gothammedium.ttf') format('truetype'),
+         url('gothammedium.svg#gothammediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* gotham medium italic*/
+@font-face {
+    font-family: 'gothammediumitalic';
+    src: url('gothammedium-italic.eot');
+    src: url('gothammedium-italic.eot?#iefix') format('embedded-opentype'),
+         url('gothammedium-italic.woff2') format('woff2'),
+         url('gothammedium-italic.woff') format('woff'),
+         url('gothammedium-italic.ttf') format('truetype'),
+         url('gothammedium-italic.svg#gothammediumitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.gothambook{
+    font-family: 'gothambookregular';
+    font-weight: 400;
+}
+.gothambookitalic{
+    font-family: 'gothambookitalic';
+    font-weight: 400;
+}
+.gothamlight{
+    font-family: 'gothamlightregular';
+    font-weight: 300;
+}
+.gothamlightitalic{
+    font-family: 'gothamlightitalic';
+    font-weight: 300;
+}
+.gothammedium{
+    font-family: 'gothammediumregular';
+}
+.gothammediumitalic{
+    font-family: 'gothammediumitalic';
+}

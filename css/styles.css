@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500&subset=latin,vietnamese);
+html, body {
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga" on;
+    -webkit-tap-highlight-color: transparent;
+    /*font-family: 'Roboto',  arial, sans-serif !important;*/
+    font-family: 'gothambookregular', 'Roboto', Sans Serif, arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /*letter-spacing: 0.6px;*/
+    /* These are technically the same, but use both */
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   -ms-word-break: break-all;
+   /* This is the dangerous one in WebKit, as it breaks things wherever */
+   word-break: break-all;
+   /* Instead use this non-standard one: */
+   word-break: break-word;
+   /* Adds a hyphen where the word breaks, if supported (No Blink) */
+   -ms-hyphens: auto;
+   -moz-hyphens: auto;
+   -webkit-hyphens: auto;
+   hyphens: auto;
+}
+
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.table{
+  width: 100%;
+  display: table;
+}
+
+.tablecell{
+  display: table-cell;
+  vertical-align: top;
+}
+
+header{
+  background-color: #ffffff;
+  height: 60px;
+}
+.header-box{
+  width: 80%;
+  margin: 0 auto;
+}
+.nav-menu{
+  vertical-align: top;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #666666;
+  top: 0;
+  right: 0;
+}
+
+
+.top{
+  border-top: 2px solid #1e90b3;
+}
+.top-image{
+  width: 100%;
+  height: auto;
+}
+
+
+.main-content{
+  background-color: #1a3b47;
+  height: auto;
+}
+
+.investment-section{
+  border-radius: 3px;
+  font-family: 'gothambookregular', 'Roboto', Sans Serif, arial, sans-serif;
+}
+.investment-title{
+  background-color: #21a5a3;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.investment-title p{
+  padding: 30px 20px 20px 20px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.investment-choice{
+  background-color: #ffffff;
+  color: #21a5a3;
+  font-size: 14px;
+  font-weight: 400;
+}
+.country-title p{
+   padding: 10px 0px 0px 20px;
+}
+.industry-title p{
+  padding: 10px 0px 0px 20px;
+}
+.country-dropdown, .industry-dropdown{
+    width: 95%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 2px solid #148cb3;
+    border-radius: 3px;
+    color: #989898;
+    position: relative;
+    display: inline-block;
+}
+.country-dropdown i{
+  color: #148cb3;
+  padding-left: 10px;
+}
+.industry-dropdown i{
+  color: #148cb3;
+  padding-left: 10px;
+}
+.choice-industry{
+    width: 50%;
+}
+
+.company-1, .company-2, .company-3,
+.company-4, .company-5, .company-6,
+.company-7, .company-8{
+  width: 25%;
+  background-color: #ffffff;
+  border-top: 10px solid #21a5a3;
+  float: left;
+}
+
+.company-1 .table{
+  margin-bottom: 0;
+}
+
+.company-2 .table{
+  margin-bottom: 0;
+}
+
+.company-3 .table{
+  margin-bottom: 0;
+}
+
+.company-4 .table{
+  margin-bottom: 0;
+}
+.company-5 .table{
+  margin-bottom: 0;
+}
+
+.company-6 .table{
+  margin-bottom: 0;
+}
+
+.company-7 .table{
+  margin-bottom: 0;
+}
+
+.company-8 .table{
+  margin-bottom: 0;
+}
+
+.company-1 .tablecell{
+  width: 50%;
+}
+.company-2 .tablecell{
+  width: 50%;
+}
+.company-3 .tablecell{
+  width: 50%;
+}
+.company-4 .tablecell{
+  width: 50%;
+}
+.company-5 .tablecell{
+  width: 50%;
+}
+.company-6 .tablecell{
+  width: 50%;
+}
+.company-7 .tablecell{
+  width: 50%;
+}
+.company-8 .tablecell{
+  width: 50%;
+}
+
+.company-img{
+  text-align: center;
+}
+.company-img img{
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+.company-title{
+  text-align: center;
+  font-size: 18px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #148cb3;
+}
+.company-des{
+  width: 85%;
+  margin: 0 auto;
+}
+.company-industry,  .company-series{
+  background-color: #f4f4f4;
+  padding: 5px 25px;
+}
+.company-country, .company-website{
+  padding: 5px 25px;
+}
+.company-contact{
+  background-color: #21a5a3;
+}
+.company-contact p{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 0px;
+  color: #ffffff;
+}
+.company-website .tablecell{
+  width: 50%;
+}
+.company-website p{
+  font-size: 14px;
+}
+
+.clear{
+  clear: both;
+}
